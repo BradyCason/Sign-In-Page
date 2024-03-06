@@ -61,6 +61,10 @@ h2{
     padding: 20px;
 }
 
+input:focus{
+    background-color: #6aa2b8;
+}
+
 .content{
     margin-top: 10px;
 }
