@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="all-content">
+        <div class="side-bar">
+            <div class="side-image-div">
+                <img src="images/ptanteater.webp" class="side-image">
+            </div>
+            <div class="title-background">
+                <h1>Zotplanner</h1>
+            </div>
+        </div>
+        <div class="right-side">
+            <h1>This is a title or something</h1>
+            <p>This is some text talking about the thing that this this is supposed to be talking about.</p>
+            <div class="input-container">
+                <h2>Login</h2>
+                <form action="#">
+                    <div class="content">
+                        <lable for="username">Username:</lable>
+                        <input type="text" id="username" name="username" required>
+                    </div>
+                    <div class="content">
+                        <lable for="psw">Password:</lable>
+                        <input type="password" name="psw" id="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Password must contain at least one number, one uppercase letter, one lowercase letter, and be at least 8 characters long." required>
+                    </div>
+                    <button class="login">Login</button>
+                </form>
+            </div>
+            <h1>OR</h1>
+            <div class="input-container">
+                <h2>Create New Account</h2>
+                <form action="#">
+                    <div class="content">
+                        <lable for="username">Username:</lable>
+                        <input type="text" id="username" name="username" required>
+                    </div>
+                    <div class="content">
+                        <lable for="psw">Password:</lable>
+                        <input type="password" name="psw" id="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Password must contain at least one number, one uppercase letter, one lowercase letter, and be at least 8 characters long." required>
+                    </div>
+                    <div class="content">
+                        <lable for="confirm-psw">Confirm Password:</lable>
+                        <input type="password" name="confirm-psw" id="confirm-psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Password must contain at least one number, one uppercase letter, one lowercase letter, and be at least 8 characters long." required>
+                    </div>
+                    <button class="create-password">Create Password</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
